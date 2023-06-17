@@ -18,7 +18,6 @@ backgroundLayer5.src = 'images/layer-5.png';
 const slider = document.getElementById('slider');
 slider.value = gameSpeed;
 const showGameSpeed = document.getElementById('showGameSpeed');
-showGameSpeed.innerHTML = gameSpeed;
 slider.addEventListener('change', function(e) {
     gameSpeed = e.target.value;
     showGameSpeed.innerHTML = gameSpeed;
